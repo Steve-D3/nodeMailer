@@ -11,9 +11,6 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
-app.set("view engine", "ejs");
-app.set("views", "src/views");
-app.use(express.static("src/public"));
 app.use(express.json());
 
 // Routes
